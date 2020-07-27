@@ -1,0 +1,621 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav .navbar-brand,
+nav .navbar-nav {
+  margin: 0em 2.5em;
+}
+
+.navbar-brand .logoPic {
+  height: 3em;
+}
+
+a.nav-link {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.fixed-top {
+  padding: 0;
+}
+
+nav .navbar-nav,
+.landingText {
+  font-size: 1.25em;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  margin-right: 2em;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: rgb(255, 77, 255);
+}
+
+nav ul li .last {
+  margin-right: 0;
+}
+
+.last img {
+  height: 20px;
+  margin-left: 0.4em;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.landingPage {
+  height: 100vh;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 255, 255) 33%,
+    rgba(0, 0, 0, 1) 37%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.lady,
+.fencer,
+.fencer2 {
+  height: 85vh;
+  background-image: url("../images/ladyblack.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fencer,
+.fencer2 {
+  height: 90vh;
+  background-image: url("../images/fen2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fencer2 {
+  background-image: url("../images/fen.jpg");
+  height: 67vh;
+}
+
+.bgFen {
+  height: 31vh;
+  background-image: url("../images/fen4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main {
+  height: 75vh;
+  color: white;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 2em;
+}
+
+.main h1 {
+  font-size: 3.5em;
+}
+
+.advH1 {
+  margin-top: 3.5em;
+  line-height: 1.5em;
+  text-align: right;
+}
+
+.btnLanding,
+.btnLanding2 {
+  background-color: rgb(255, 77, 255);
+  color: black;
+  border-radius: 0;
+  padding: 0.8em 3em;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  letter-spacing: 5px;
+}
+
+.btnLanding2 {
+  display: none;
+}
+
+.btnLanding:hover,
+.btnLanding2:hover {
+  background-color: rgb(95, 0, 95);
+  color: white;
+  transition: 0.35s ease;
+}
+
+.dot {
+  position: relative;
+}
+
+.dot:before {
+  position: absolute;
+  content: "";
+  height: 0.2em;
+  width: 0.2em;
+  bottom: 0.1em;
+  right: -9px;
+  z-index: 2;
+  background: red;
+}
+
+.aboutWork {
+  background-image: url("../images/fen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-attachment: fixed;
+}
+
+.workFlexRow {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 5em 0;
+  position: relative;
+}
+
+.workFlexRow .workRowDiv {
+  background-color: black;
+  width: 90%;
+  margin: 1.5em;
+  text-align: center;
+  color: white;
+  -webkit-box-shadow: 2px 2px 7px 0px rgb(95, 0, 95);
+  -moz-box-shadow: 2px 2px 7px 0px rgb(95, 0, 95);
+  box-shadow: 2px 2px 7px 0px rgb(95, 0, 95);
+}
+
+.workRowDiv h5 {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: rgb(255, 77, 255);
+  padding: 0.715em 1.5em;
+  margin-bottom: 0;
+}
+
+.carousel-inner {
+  -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  padding: 1em;
+}
+
+.btnPanel:hover {
+  text-decoration: none;
+}
+
+.workRowDiv h5:hover {
+  transition: 0.35s ease;
+  color: white;
+  background-color: rgb(100, 0, 100);
+}
+
+.panel-body ul {
+  list-style: none;
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+.panel-collapse {
+  background-color: black;
+}
+
+.panel-body ul li {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+.panel-body ul li:last-child {
+  margin-bottom: 0;
+}
+
+.advokatRow {
+  padding: 0;
+}
+
+.advokatText,
+.advokatText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 4em;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 255, 255) 60%,
+    rgba(0, 0, 0, 1) 63%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.advokatText2 {
+  text-align: right;
+  background: linear-gradient(
+    249deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 255, 255) 63%,
+    rgba(0, 0, 0, 1) 66%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.advokatText h3,
+.advokatText2 h3 {
+  position: relative;
+  margin-bottom: 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.advokatText h3:before,
+.advokatText2 h3:before {
+  position: absolute;
+  content: "";
+  height: 0.2em;
+  width: 60%;
+  bottom: -0.1em;
+  z-index: 5;
+  background: purple;
+}
+
+.advokatText2 h3:before {
+  right: 0;
+}
+
+.advokatText p {
+  width: 60%;
+  font-size: 1.25rem;
+  line-height: 1.5em;
+}
+
+.advokatText2 p {
+  float: right;
+}
+
+.advokatText2 p {
+  text-align: left;
+}
+
+.advPink {
+  font-weight: bold;
+}
+
+.caret,
+.dropdown-toggle::after {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+.testRow {
+  padding: 5em 0;
+  color: black;
+}
+
+.testRowFlex {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.carousel-indicators {
+  margin-bottom: 1em;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.carousel-item h2 {
+  margin-bottom: 4em;
+  font-size: 1.7em;
+}
+
+.carousel-item p {
+  margin: 0.8em 0 2.6em 0;
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  padding: 0;
+}
+
+.dropdown-item.active,
+.dropdown-item {
+  background-color: pink;
+  color: black;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  font-weight: bold;
+}
+
+.dropdown-item.active:hover,
+.dropdown-item:hover {
+  background-color: rgb(255, 228, 232);
+  color: black;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+}
+
+.dropdown-item:last-child,
+.dropdown-item:hover:last-child {
+  margin-bottom: 0;
+}
+
+.testRow h3,
+.contactText h3 {
+  margin: 0 0 1.5em 0;
+  font-weight: bold;
+}
+
+/* Media  */
+
+@media only screen and (max-width: 1100px) {
+  a.nav-link {
+    margin: 0em 0.4em;
+  }
+
+  .lady {
+    height: 70vh;
+  }
+
+  .main {
+    height: 67vh;
+  }
+
+  .landingPage {
+    background: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 37%,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .advokatText p {
+    width: 100%;
+    margin: 1em auto;
+  }
+
+  .advPink {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1em;
+    -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+    -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+    box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  }
+
+  .fencer {
+    height: 60vh;
+  }
+
+  .fencer2 {
+    height: 47vh;
+  }
+
+  .workRowDiv h5 {
+    padding: 0.715em;
+  }
+
+  .bgFen {
+    height: 20vh;
+  }
+
+  .navbar-brand .logoPic {
+    height: 2.25em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .workFlexRow .workRowDiv {
+    width: 80%;
+    margin: 1em auto;
+  }
+
+  .workFlexRow {
+    flex-direction: column;
+  }
+
+  .fencer {
+    height: 95vh;
+  }
+
+  .fencer2 {
+    height: 73vh;
+  }
+
+  .workFlexRow,
+  .testRow {
+    padding: 3.15em 0;
+  }
+
+  .workRowDiv h5 {
+    padding: 0.715em 1.5em;
+  }
+
+  .advokatText h3:before {
+    width: 100%;
+  }
+
+  #VladoA {
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav .navbar-brand,
+  nav .navbar-nav,
+  .navbar-toggler {
+    margin: 0.1em 1em;
+  }
+
+  .navbar-toggler {
+    padding: 0.2em;
+    font-size: 1.1rem;
+  }
+
+  a.nav-link {
+    margin: 0.4em 0;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.3em 2em;
+  }
+
+  .btnLanding {
+    display: none;
+  }
+
+  .btnLanding2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin: 3.25em auto 0;
+  }
+
+  .fa-angle-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2px 0 0 4px;
+  }
+
+  nav ul li a {
+    background-color: rgba(255, 77, 255, 0.99);
+    color: black;
+  }
+
+  nav ul li a:hover,
+  nav ul li a:active {
+    color: white;
+  }
+
+  .nav-item .nav-link {
+    margin: 1em 0 0 1em;
+    display: flex;
+    align-items: center;
+  }
+
+  .landingPage {
+    background: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 34%,
+      rgba(0, 0, 0, 1) 37%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .lady {
+    height: 53vh;
+  }
+
+  .main {
+    height: 70vh;
+    padding: 1em;
+    margin: 2em 0 0 0;
+  }
+
+  .main h1 {
+    margin-top: 2em;
+    font-size: 2.1em;
+  }
+
+  .advH1 {
+    margin-top: 0;
+  }
+
+  .workFlexRow .workRowDiv {
+    width: 86%;
+    margin: 1.5em auto;
+  }
+
+  .advokatText {
+    padding: 0em 2em 2em 2em;
+  }
+
+  .fencer {
+    height: 45vh;
+    background-position-y: -80px;
+  }
+
+  .dropdown-item.active,
+  .dropdown-item {
+    background-color: pink;
+    color: black;
+    width: 85%;
+    float: right;
+  }
+
+  .fencer,
+  .bgFen {
+    display: none;
+  }
+
+  .fencer2 {
+    display: block;
+  }
+
+  .advokatText2 h3 {
+    margin: 2em 0;
+  }
+
+  .dot:before {
+    right: -5px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .main h1 {
+    font-size: 1.7em;
+  }
+
+  .btnLanding {
+    padding: 0.5em 1.2em;
+    font-size: 1.15em;
+    margin-top: 3.25em;
+  }
+
+  .workRowDiv h5 {
+    padding: 0.715em;
+  }
+
+  #doma {
+    margin-top: 1em;
+  }
+}
