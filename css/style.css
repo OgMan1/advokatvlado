@@ -82,7 +82,7 @@ nav ul li .last {
 
 .fencer,
 .fencer2 {
-  height: 90vh;
+  height: 91vh;
   background-image: url("../images/fen2.jpg");
   background-size: cover;
   background-position: center;
@@ -441,17 +441,17 @@ nav ul li .last {
   }
 }
 
-@media only screen and (min-width: 1023px) and (max-width: 1370px) and (min-device-height: 765px) and (max-device-height: 801px) {
+@media only screen and (min-device-width: 1023px) and (max-device-width: 1370px) and (min-device-height: 765px) and (max-device-height: 835px) {
   .fencer {
-    height: 101vh;
+    height: 103vh;
   }
 
   .fencer2 {
-    height: 71vh;
+    height: 72vh;
   }
 }
 
-@media only screen and (min-width: 1023px) and (max-width: 1025px) and (min-device-height: 599px) and (max-device-height: 601px) {
+@media only screen and (min-device-width: 1023px) and (max-device-width: 1025px) and (min-device-height: 599px) and (max-device-height: 605px) {
   .fencer {
     height: 125vh;
   }
