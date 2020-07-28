@@ -377,6 +377,13 @@ nav ul li .last {
 
 /* Media  */
 
+
+@media only screen and (max-width: 1300px) {
+  .bgFen {
+    background-size: contain;
+  }
+}
+
 @media only screen and (max-width: 1100px) {
   a.nav-link {
     margin: 0em 0.4em;
@@ -431,6 +438,26 @@ nav ul li .last {
 
   .navbar-brand .logoPic {
     height: 2.25em;
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1370px) and (min-device-height: 765px) and (max-device-height: 801px) {
+  .fencer {
+    height: 101vh;
+  }
+
+  .fencer2 {
+    height: 71vh;
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1025px) and (min-device-height: 599px) and (max-device-height: 601px) {
+  .fencer {
+    height: 125vh;
+  }
+
+  .fencer2 {
+    height: 107vh;
   }
 }
 
