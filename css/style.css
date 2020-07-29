@@ -5,7 +5,7 @@ html {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 .navbar {
@@ -289,7 +289,7 @@ nav ul li .last {
 
 .advokatText p {
   width: 60%;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   line-height: 1.5em;
 }
 
@@ -304,6 +304,15 @@ nav ul li .last {
 .advPink {
   font-weight: bold;
 }
+
+.advPink p {
+  margin-bottom: 1.5em;
+}
+
+.advPink p:last-of-type {
+  margin-bottom: 0;
+}
+
 
 .caret,
 .dropdown-toggle::after {
@@ -320,6 +329,7 @@ nav ul li .last {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  padding: 0;
 }
 
 .carousel-indicators {
@@ -376,6 +386,49 @@ nav ul li .last {
   font-weight: bold;
 }
 
+.contactRow {
+  margin: 1em 0 1em 0;
+  font-weight: 600;
+}
+
+.street, .street2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.street2 {
+  padding-left: 1.5em;
+}
+
+.bottDiv {
+  padding-top: 1.8em;
+  padding-bottom: 1.5em;
+  border-bottom: 0.2em solid rgb(170, 170, 170);
+}
+
+.bottAdv, .bottAdv2 {
+  margin-top: 10px;
+}
+
+.bottAdv2 {
+  margin-top: 24px;
+}
+
+#googleMap {
+  height: 330px;
+}
+
+.workingHour {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.footer-copyright {
+  padding: 0 1em 1em 1em;
+}
+
+
 /* Media  */
 
 
@@ -406,7 +459,6 @@ nav ul li .last {
 
   .advokatText p {
     width: 100%;
-    margin: 1em auto;
   }
 
   .advPink {
@@ -440,6 +492,7 @@ nav ul li .last {
   .advH1 {
     margin-top: 5.5em;
   }
+
 
 }
 
@@ -520,6 +573,22 @@ nav ul li .last {
   
   .lady {
     height: 75vh;
+  }
+
+  .bottAdv {
+    margin-top: 10px;
+  }
+
+  .bottDiv {
+    padding-top: 4em;
+  }
+
+  .street, .street2 {
+    font-size: 1.2rem;
+  }
+
+  .street2 {
+    padding-left: 0.5em;
   }
 }
 
@@ -609,6 +678,10 @@ nav ul li .last {
     font-size: 2.1em;
   }
 
+  h3 {
+    font-size: 1.5em;
+  }
+
   .advH1 {
     margin-top: 0;
   }
@@ -620,6 +693,14 @@ nav ul li .last {
 
   .advokatText {
     padding: 0em 2em 2em 2em;
+  }
+
+  .workRowDiv h5 {
+    font-size: 1.2em;
+  }
+
+  .advokatText p {
+    font-size: 1em;
   }
 
   .fencer {
@@ -648,9 +729,47 @@ nav ul li .last {
     margin: 2em 0;
   }
 
-  .dot:before {
-    right: -5px;
+  .bottDiv {
+    padding-top: 0;
   }
+
+  .bottAdv {
+    margin-top: 5px;
+  }
+
+  .street2 {
+    margin-top: 0.5em;
+    padding: 1em;
+  }
+
+  .street, .street2 {
+    font-size: 1.1rem;
+  }
+
+  .contactRow {
+    margin: 1em 0 0 0;
+  }
+
+  .workingHour {
+    font-size: 1em;
+  }
+
+  .street, .workingHour {
+    line-height: 1.4em;
+  }
+
+  .mailAdv {
+    font-size: 0.95em;
+  }
+  
+  #googleMap {
+    height: 250px;
+  }
+
+  .footer-copyright {
+    font-size: 0.7em;
+  }
+  
 }
 
 
@@ -672,4 +791,13 @@ nav ul li .last {
   #doma {
     margin-top: 1em;
   }
+
+  .mailAdv {
+    font-size: 0.8em;
+  }
+
+  .street, .street2 {
+    font-size: 0.95rem;
+  }
 }
+
