@@ -426,10 +426,6 @@ nav ul li .last {
 /* Media  */
 
 @media only screen and (max-width: 1950px) {
-  .bgFen {
-    background-size: contain;
-  }
-
   .fencer {
     height: 105vh;
   }
