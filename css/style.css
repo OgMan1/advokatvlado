@@ -146,21 +146,6 @@ nav ul li .last {
   transition: 0.35s ease;
 }
 
-/* .dot {
-  position: relative;
-}
-
-.dot:before {
-  position: absolute;
-  content: "";
-  height: 0.2em;
-  width: 0.2em;
-  bottom: 0.1em;
-  right: -9px;
-  z-index: 2;
-  background: lime;
-} */
-
 .aboutWork {
   background-image: url("../images/fen.jpg");
   background-position: center;
@@ -211,7 +196,7 @@ nav ul li .last {
 .workRowDiv h5:hover {
   transition: 0.4s ease;
   color: black;
-  background-color: rgb(255, 77, 255);
+  background-color: white;
 }
 
 .panel-body ul {
@@ -382,7 +367,7 @@ nav ul li .last {
 
 .testRow h3,
 .contactText h3 {
-  margin: 0 0 1.5em 0;
+  margin: 0 0 2.5em 0;
   font-weight: bold;
 }
 
@@ -402,7 +387,7 @@ nav ul li .last {
 }
 
 .bottDiv {
-  padding-top: 1.8em;
+  padding-top: 2.8em;
   padding-bottom: 1.5em;
   border-bottom: 0.2em solid rgb(170, 170, 170);
 }
@@ -412,7 +397,7 @@ nav ul li .last {
 }
 
 .bottAdv2 {
-  margin-top: 24px;
+  margin-top: 40px;
 }
 
 #googleMap {
@@ -579,10 +564,6 @@ nav ul li .last {
     margin-top: 10px;
   }
 
-  .bottDiv {
-    padding-top: 4em;
-  }
-
   .street, .street2 {
     font-size: 1.2rem;
   }
@@ -594,6 +575,11 @@ nav ul li .last {
   #googleMap {
     height: 300px;
   }
+
+  .street, .workingHour {
+    font-size: 1em;
+  }
+
 
 }
 
@@ -747,24 +733,20 @@ nav ul li .last {
   }
 
   .street2 {
-    margin-top: 0.5em;
+    margin-top: 1.5em;
     padding: 1em;
   }
 
-  .street, .street2 {
+  .street2 {
     font-size: 1.1rem;
+  }
+
+  .workingHour {
+    font-size: 0.9em;
   }
 
   .contactRow {
     margin: 1em 0 0 0;
-  }
-
-  .workingHour {
-    font-size: 1em;
-  }
-
-  .street, .workingHour {
-    line-height: 1.4em;
   }
 
   .mailAdv {
@@ -772,6 +754,7 @@ nav ul li .last {
   }
   
   #googleMap {
+    margin-top: 2em;
     height: 250px;
   }
 
@@ -809,9 +792,13 @@ nav ul li .last {
     font-size: 0.8em;
   }
 
-  .street, .street2 {
+   .street2 {
     font-size: 0.95rem;
   }
+
+  .workingHour, .street {
+    font-size: 0.8rem;
+  } 
 
   .advokatText p {
     font-size: 0.95em;
