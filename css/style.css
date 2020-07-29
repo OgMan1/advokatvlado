@@ -82,7 +82,8 @@ nav ul li .last {
 
 .fencer,
 .fencer2 {
-  height: 91vh;
+  height: 95vh;
+  box-sizing: border-box;
   background-image: url("../images/fen2.jpg");
   background-size: cover;
   background-position: center;
@@ -90,7 +91,7 @@ nav ul li .last {
 
 .fencer2 {
   background-image: url("../images/fen.jpg");
-  height: 67vh;
+  height: 70vh;
 }
 
 .bgFen {
@@ -424,6 +425,20 @@ nav ul li .last {
 
 /* Media  */
 
+@media only screen and (max-width: 1950px) {
+  .bgFen {
+    background-size: contain;
+  }
+
+  .fencer {
+    height: 105vh;
+  }
+
+  .fencer2 {
+    height: 73vh;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .bgFen {
     background-size: contain;
@@ -462,11 +477,11 @@ nav ul li .last {
   }
 
   .fencer {
-    height: 60vh;
+    height: 62vh;
   }
 
   .fencer2 {
-    height: 47vh;
+    height: 48vh;
   }
 
   .workRowDiv h5 {
@@ -486,9 +501,23 @@ nav ul li .last {
   }
 }
 
-@media only screen and (max-device-width: 1025px) and (min-device-height: 599px) and (max-device-height: 605px) {
+@media only screen and (min-device-width: 1020px) and (max-device-width: 1370px) and (min-device-height: 765px) and (max-device-height: 835px) {
   .fencer {
-    height: 125vh;
+    height: 105vh;
+  }
+
+  .fencer2 {
+    height: 75vh;
+  }
+
+  .main h1 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-device-width: 1020px) and (max-device-width: 1025px) and (min-device-height: 595px) and (max-device-height: 605px) {
+  .fencer {
+    height: 130vh;
   }
 
   .fencer2 {
@@ -509,20 +538,6 @@ nav ul li .last {
   }
 }
 
-@media only screen and (max-device-width: 1370px) and (min-device-height: 765px) and (max-device-height: 835px) {
-  .fencer {
-    height: 103vh;
-  }
-
-  .fencer2 {
-    height: 72vh;
-  }
-
-  .main h1 {
-    font-size: 3em;
-  }
-}
-
 @media only screen and (max-width: 992px) {
   .workFlexRow .workRowDiv {
     width: 80%;
@@ -534,11 +549,11 @@ nav ul li .last {
   }
 
   .fencer {
-    height: 95vh;
+    height: 97vh;
   }
 
   .fencer2 {
-    height: 73vh;
+    height: 75vh;
   }
 
   .workFlexRow,
