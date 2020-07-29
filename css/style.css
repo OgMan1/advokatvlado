@@ -597,7 +597,6 @@ nav ul li .last {
     font-size: 1.1rem;
   }
 
-  
 
   a.nav-link {
     margin: 0.4em 0;
@@ -651,6 +650,10 @@ nav ul li .last {
     margin: 1em 0 0 1em;
     display: flex;
     align-items: center;
+  }
+
+  a.nav-link.last {
+    margin-bottom: 1em;
   }
 
   .landingPage {
