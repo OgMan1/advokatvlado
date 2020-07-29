@@ -82,7 +82,7 @@ nav ul li .last {
 
 .fencer,
 .fencer2 {
-  height: 95vh;
+  height: 100vh;
   box-sizing: border-box;
   background-image: url("../images/fen2.jpg");
   background-size: cover;
@@ -91,7 +91,7 @@ nav ul li .last {
 
 .fencer2 {
   background-image: url("../images/fen.jpg");
-  height: 70vh;
+  height: 73vh;
 }
 
 .bgFen {
@@ -233,7 +233,7 @@ nav ul li .last {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0em 4em;
+  padding: 2em 4em;
   background: linear-gradient(
     105deg,
     rgba(255, 255, 255, 1) 0%,
@@ -425,13 +425,17 @@ nav ul li .last {
 
 /* Media  */
 
-@media only screen and (max-width: 1950px) {
+@media only screen and (min-width: 1900px) {
   .fencer {
-    height: 105vh;
+    height: 65vh;
   }
 
   .fencer2 {
-    height: 73vh;
+    height: 50vh;
+  }
+
+  .bgFen {
+    height: 27vh;
   }
 }
 
@@ -473,11 +477,11 @@ nav ul li .last {
   }
 
   .fencer {
-    height: 62vh;
+    height: 65vh;
   }
 
   .fencer2 {
-    height: 48vh;
+    height: 50vh;
   }
 
   .workRowDiv h5 {
@@ -497,7 +501,7 @@ nav ul li .last {
   }
 }
 
-@media only screen and (min-device-width: 1020px) and (max-device-width: 1370px) and (min-device-height: 765px) and (max-device-height: 835px) {
+@media only screen and (min-device-width: 1020px) and (max-device-width: 1399px) and (min-device-height: 700px) and (max-device-height: 835px) {
   .fencer {
     height: 105vh;
   }
@@ -509,11 +513,15 @@ nav ul li .last {
   .main h1 {
     font-size: 3em;
   }
+
+  .bgFen {
+    background-size: cover;
+  }
 }
 
-@media only screen and (min-device-width: 1020px) and (max-device-width: 1025px) and (min-device-height: 595px) and (max-device-height: 605px) {
+@media only screen and (min-device-width: 1020px) and (max-device-width: 1025px) and (min-device-height: 495px) and (max-device-height: 605px) {
   .fencer {
-    height: 130vh;
+    height: 135vh;
   }
 
   .fencer2 {
@@ -531,6 +539,10 @@ nav ul li .last {
 
   .advH1 {
     margin-top: 4em;
+  }
+
+  .bgFen {
+    background-size: cover;
   }
 }
 
