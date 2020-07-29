@@ -590,6 +590,11 @@ nav ul li .last {
   .street2 {
     padding-left: 0.5em;
   }
+
+  #googleMap {
+    height: 300px;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -700,7 +705,7 @@ nav ul li .last {
   }
 
   .advokatText p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .fencer {
@@ -727,6 +732,10 @@ nav ul li .last {
 
   .advokatText2 h3 {
     margin: 2em 0;
+  }
+
+  .carousel-item h4 {
+    font-size: 1.25em;
   }
 
   .bottDiv {
@@ -798,6 +807,10 @@ nav ul li .last {
 
   .street, .street2 {
     font-size: 0.95rem;
+  }
+
+  .advokatText p {
+    font-size: 0.95em;
   }
 }
 
