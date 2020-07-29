@@ -205,7 +205,8 @@ nav ul li .last {
   margin-bottom: 0;
 }
 
-.navbar-collapse, .panel-collapse {
+.navbar-collapse,
+.panel-collapse {
   transition: 0.5s ease;
 }
 
@@ -301,7 +302,6 @@ nav ul li .last {
   margin-bottom: 0;
 }
 
-
 .caret,
 .dropdown-toggle::after {
   vertical-align: middle;
@@ -378,7 +378,8 @@ nav ul li .last {
   font-weight: 600;
 }
 
-.street, .street2 {
+.street,
+.street2 {
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1em;
@@ -394,7 +395,8 @@ nav ul li .last {
   border-bottom: 0.2em solid rgb(170, 170, 170);
 }
 
-.bottAdv, .bottAdv2 {
+.bottAdv,
+.bottAdv2 {
   margin-top: 10px;
 }
 
@@ -415,9 +417,7 @@ nav ul li .last {
   padding: 0 1em 1em 1em;
 }
 
-
 /* Media  */
-
 
 @media only screen and (max-width: 1300px) {
   .bgFen {
@@ -479,11 +479,9 @@ nav ul li .last {
   .advH1 {
     margin-top: 5.5em;
   }
-
-
 }
 
-@media only screen and (min-device-width: 1023px) and (max-device-width: 1370px) and (min-device-height: 765px) and (max-device-height: 835px) {
+@media only screen and (max-device-width: 1370px) and (min-device-height: 765px) and (max-device-height: 835px) {
   .fencer {
     height: 103vh;
   }
@@ -491,36 +489,33 @@ nav ul li .last {
   .fencer2 {
     height: 72vh;
   }
-  
+
   .main h1 {
     font-size: 3em;
   }
-
- 
-
 }
 
-@media only screen and (min-device-width: 1023px) and (max-device-width: 1025px) and (min-device-height: 599px) and (max-device-height: 605px) {
-
+@media only screen and (max-device-width: 1025px) and (min-device-height: 599px) and (max-device-height: 605px) {
   .fencer {
-  height: 125vh;
+    height: 125vh;
   }
 
   .fencer2 {
-  height: 107vh;
+    height: 107vh;
   }
- 
+
   .main h1 {
     font-size: 3em;
   }
 
- .btnLanding, .btnLanding2 {
-  padding: 0.8em 2em;
-}
+  .btnLanding,
+  .btnLanding2 {
+    padding: 0.8em 2em;
+  }
 
-.advH1 {
-  margin-top: 4em;
-}
+  .advH1 {
+    margin-top: 4em;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -557,7 +552,7 @@ nav ul li .last {
   #VladoA {
     margin-top: 1em;
   }
-  
+
   .lady {
     height: 75vh;
   }
@@ -566,7 +561,8 @@ nav ul li .last {
     margin-top: 10px;
   }
 
-  .street, .street2 {
+  .street,
+  .street2 {
     font-size: 1.2rem;
   }
 
@@ -578,11 +574,10 @@ nav ul li .last {
     height: 300px;
   }
 
-  .street, .workingHour {
+  .street,
+  .workingHour {
     font-size: 1em;
   }
-
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -596,7 +591,6 @@ nav ul li .last {
     padding: 0.2em;
     font-size: 1.1rem;
   }
-
 
   a.nav-link {
     margin: 0.4em 0;
@@ -764,7 +758,7 @@ nav ul li .last {
   .mailAdv {
     font-size: 0.95em;
   }
-  
+
   #googleMap {
     margin-top: 2em;
     height: 250px;
@@ -772,14 +766,18 @@ nav ul li .last {
 
   .footer-copyright {
     font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
   }
 
   .carousel-item p {
     font-size: 17px;
   }
-  
-}
 
+  .botDivAdv2 {
+    text-align: right;
+  }
+}
 
 @media only screen and (max-width: 321px) {
   .main h1 {
@@ -804,16 +802,16 @@ nav ul li .last {
     font-size: 0.8em;
   }
 
-   .street2 {
+  .street2 {
     font-size: 0.95rem;
   }
 
-  .workingHour, .street {
+  .workingHour,
+  .street {
     font-size: 0.8rem;
-  } 
+  }
 
   .advokatText p {
     font-size: 0.95em;
   }
 }
-
