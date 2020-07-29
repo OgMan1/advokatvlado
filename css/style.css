@@ -82,7 +82,7 @@ nav ul li .last {
 
 .fencer,
 .fencer2 {
-  height: 100vh;
+  height: 101vh;
   box-sizing: border-box;
   background-image: url("../images/fen2.jpg");
   background-size: cover;
@@ -95,7 +95,7 @@ nav ul li .last {
 }
 
 .bgFen {
-  height: 31vh;
+  height: 30vh;
   background-image: url("../images/fen4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -233,7 +233,7 @@ nav ul li .last {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2em 4em;
+  padding: 0 4em;
   background: linear-gradient(
     105deg,
     rgba(255, 255, 255, 1) 0%,
@@ -425,7 +425,7 @@ nav ul li .last {
 
 /* Media  */
 
-@media only screen and (min-width: 1900px) {
+@media only screen and (min-width: 1899px) {
   .fencer {
     height: 65vh;
   }
