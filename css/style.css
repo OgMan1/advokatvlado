@@ -348,7 +348,6 @@ nav ul li .last {
 
 .dropdown-item.active,
 .dropdown-item {
-  background-color: pink;
   color: black;
   padding: 0.5em 1em;
   margin: 0.5em 0;
@@ -357,7 +356,7 @@ nav ul li .last {
 
 .dropdown-item.active:hover,
 .dropdown-item:hover {
-  background-color: rgb(255, 228, 232);
+  background-color: rgb(255, 188, 198);
   color: black;
   padding: 0.5em 1em;
   margin: 0.5em 0;
@@ -634,7 +633,7 @@ nav ul li .last {
   }
 
   nav ul li a {
-    background-color: rgb(255, 202, 255);
+    background-color: rgb(255, 231, 255);
     color: black;
     -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
     -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
@@ -643,7 +642,7 @@ nav ul li .last {
 
   nav ul li a:hover,
   nav ul li a:active {
-    background-color: rgb(255, 231, 255);
+    background-color: rgb(255, 255, 255);
     color: purple;
     transition: 0.35s ease;
   }
@@ -711,7 +710,7 @@ nav ul li .last {
 
   .dropdown-item.active,
   .dropdown-item {
-    background-color: pink;
+    background-color: rgb(255, 231, 235);
     color: black;
     width: 85%;
     float: right;
