@@ -735,7 +735,7 @@ nav ul li .last {
   }
 
   .carousel-item h4 {
-    font-size: 1.25em;
+    font-size: 1.2em;
   }
 
   .bottDiv {
@@ -777,6 +777,10 @@ nav ul li .last {
 
   .footer-copyright {
     font-size: 0.7em;
+  }
+
+  .carousel-item p {
+    font-size: 17px;
   }
   
 }
