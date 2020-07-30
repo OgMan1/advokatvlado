@@ -512,6 +512,11 @@ nav ul li .last {
   .contactText h3 {
     margin: 1em 0 2.5em 0;
   }
+
+  .advokatText h3,
+  .advokatText2 h3 {
+    margin: 2em 0 2em;
+  }
 }
 
 /* @media only screen and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
@@ -627,6 +632,11 @@ nav ul li .last {
 
   .advPink {
     margin: 0 0 1em 0;
+  }
+
+  .advokatText h3,
+  .advokatText2 h3 {
+    margin: 1em 0 2em;
   }
 }
 
