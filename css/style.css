@@ -443,6 +443,10 @@ nav ul li .last {
     margin: 0em 0.4em;
   }
 
+  .lady {
+    height: 80vh;
+  }
+
   .main {
     height: 67vh;
   }
@@ -492,11 +496,6 @@ nav ul li .last {
     width: 100%;
   }
 
-  .testRow h3,
-  .contactText h3 {
-    margin: 1em 0 2.5em 0;
-  }
-
   .advokatText h3,
   .advokatText2 h3 {
     margin: 2em 0 2em;
@@ -535,7 +534,7 @@ nav ul li .last {
   }
 
   .lady {
-    height: 75vh;
+    height: 71vh;
   }
 
   .bottAdv {
@@ -567,6 +566,11 @@ nav ul li .last {
   .advokatText h3,
   .advokatText2 h3 {
     margin: 1em 0 2em;
+  }
+
+  .testRow h3,
+  .contactText h3 {
+    margin: 1em 0 2.5em 0;
   }
 }
 
@@ -641,7 +645,7 @@ nav ul li .last {
   }
 
   .lady {
-    height: 55vh;
+    height: 53vh;
   }
 
   .main {
