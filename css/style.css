@@ -680,13 +680,21 @@ nav ul li .last {
     font-size: 1.2em;
   }
 
+  .advokatText h3,
+  .advokatText2 h3 {
+    margin: 0 0 2em 0;
+  }
+
+  .advokatText2 h3 {
+    margin: 2em 0;
+  }
+
   .advokatText p {
     font-size: 1.1em;
   }
 
   .fencer {
-    height: 45vh;
-    background-position-y: -80px;
+    height: 40vh;
   }
 
   .dropdown-item.active,
@@ -704,10 +712,6 @@ nav ul li .last {
 
   .fencer2 {
     display: block;
-  }
-
-  .advokatText2 h3 {
-    margin: 2em 0;
   }
 
   .carousel-item h4 {
