@@ -425,7 +425,7 @@ nav ul li .last {
 
 /* Media  */
 
-@media only screen and (min-width: 1599px) {
+@media only screen and (min-width: 1699px) {
   .fencer {
     height: 70vh;
   }
@@ -502,6 +502,10 @@ nav ul li .last {
 
   .advH1 {
     margin-top: 5.5em;
+  }
+
+  .advokatText h3:before {
+    width: 100%;
   }
 }
 
@@ -584,10 +588,6 @@ nav ul li .last {
 
   .workRowDiv h5 {
     padding: 0.715em 1.5em;
-  }
-
-  .advokatText h3:before {
-    width: 100%;
   }
 
   #VladoA {
