@@ -425,13 +425,13 @@ nav ul li .last {
 
 /* Media  */
 
-@media only screen and (min-width: 1899px) {
+@media only screen and (min-width: 1599px) {
   .fencer {
-    height: 67vh;
+    height: 70vh;
   }
 
   .fencer2 {
-    height: 52vh;
+    min-height: 50vh;
   }
 
   .bgFen {
@@ -481,11 +481,11 @@ nav ul li .last {
   }
 
   .fencer {
-    height: 65vh;
+    min-height: 65vh;
   }
 
   .fencer2 {
-    height: 50vh;
+    min-height: 50vh;
   }
 
   .workRowDiv h5 {
@@ -507,11 +507,11 @@ nav ul li .last {
 
 @media only screen and (min-device-width: 1020px) and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
   .fencer {
-    height: 110vh;
+    min-height: 110vh;
   }
 
   .fencer2 {
-    height: 75vh;
+    min-height: 75vh;
   }
 
   .main h1 {
@@ -534,11 +534,11 @@ nav ul li .last {
 
 @media only screen and (min-device-width: 1019px) and (max-device-width: 1201px) and (min-device-height: 495px) and (max-device-height: 625px) {
   .fencer {
-    height: 135vh;
+    min-height: 135vh;
   }
 
   .fencer2 {
-    height: 107vh;
+    min-height: 107vh;
   }
 
   .main h1 {
@@ -570,11 +570,11 @@ nav ul li .last {
   }
 
   .fencer {
-    height: 97vh;
+    min-height: 97vh;
   }
 
   .fencer2 {
-    height: 75vh;
+    min-height: 75vh;
   }
 
   .workFlexRow,
