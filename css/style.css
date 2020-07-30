@@ -83,7 +83,6 @@ nav ul li .last {
 .fencer,
 .fencer2 {
   min-height: 107vh;
-  box-sizing: border-box;
   background-image: url("../images/fen2.jpg");
   background-size: cover;
   background-position: center;
@@ -425,17 +424,17 @@ nav ul li .last {
 
 /* Media  */
 
-@media only screen and (min-width: 1699px) {
+@media only screen and (min-width: 1599px) {
   .fencer {
-    height: 70vh;
-  }
-
-  .fencer2 {
     min-height: 50vh;
   }
 
+  .fencer2 {
+    min-height: 30vh;
+  }
+
   .bgFen {
-    height: 27vh;
+    height: 25vh;
   }
 }
 
