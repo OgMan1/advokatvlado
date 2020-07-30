@@ -80,7 +80,7 @@ nav ul li .last {
 
 .fencer,
 .fencer2 {
-  min-height: 107vh;
+  min-height: 109vh;
   background-image: url("../images/fen2.jpg");
   background-size: cover;
   background-position: center;
@@ -423,7 +423,7 @@ nav ul li .last {
 
 /* Media  */
 
-@media only screen and (min-width: 1599px) {
+@media only screen and (min-width: 1650px) {
   .fencer {
     min-height: 70vh;
   }
@@ -456,6 +456,14 @@ nav ul li .last {
     background-size: contain;
   }
 
+  .fencer {
+    min-height: 100vh;
+  }
+
+  .fencer2 {
+    min-height: 70vh;
+  }
+
   .landingPage {
     background: linear-gradient(
       105deg,
@@ -478,14 +486,6 @@ nav ul li .last {
     box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
   }
 
-  .fencer {
-    min-height: 65vh;
-  }
-
-  .fencer2 {
-    min-height: 50vh;
-  }
-
   .workRowDiv h5 {
     padding: 0.715em;
   }
@@ -504,33 +504,6 @@ nav ul li .last {
 
   .advokatText h3:before {
     width: 100%;
-  }
-}
-
-@media only screen and (max-device-width: 1201px) and (min-device-height: 495px) and (max-device-height: 625px) {
-  .fencer {
-    min-height: 141vh;
-  }
-
-  .fencer2 {
-    min-height: 111vh;
-  }
-
-  .main h1 {
-    font-size: 3em;
-  }
-
-  .btnLanding,
-  .btnLanding2 {
-    padding: 0.8em 2em;
-  }
-
-  .advH1 {
-    margin-top: 4em;
-  }
-
-  .bgFen {
-    background-size: cover;
   }
 }
 
@@ -558,6 +531,33 @@ nav ul li .last {
   .btnLanding,
   .btnLanding2 {
     padding: 0.8em 2em;
+  }
+}
+
+@media only screen and (max-device-width: 1201px) and (min-device-height: 495px) and (max-device-height: 625px) {
+  .fencer {
+    min-height: 141vh;
+  }
+
+  .fencer2 {
+    min-height: 111vh;
+  }
+
+  .main h1 {
+    font-size: 3em;
+  }
+
+  .btnLanding,
+  .btnLanding2 {
+    padding: 0.8em 2em;
+  }
+
+  .advH1 {
+    margin-top: 4em;
+  }
+
+  .bgFen {
+    background-size: cover;
   }
 }
 
