@@ -71,9 +71,7 @@ nav ul li .last {
   );
 }
 
-.lady,
-.fencer,
-.fencer2 {
+.lady {
   height: 85vh;
   background-image: url("../images/ladyblack.png");
   background-repeat: no-repeat;
@@ -86,6 +84,7 @@ nav ul li .last {
   background-image: url("../images/fen2.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .fencer2 {
@@ -426,11 +425,11 @@ nav ul li .last {
 
 @media only screen and (min-width: 1599px) {
   .fencer {
-    min-height: 50vh;
+    min-height: 70vh;
   }
 
   .fencer2 {
-    min-height: 30vh;
+    min-height: 50vh;
   }
 
   .bgFen {
@@ -508,34 +507,7 @@ nav ul li .last {
   }
 }
 
-@media only screen and (min-device-width: 1020px) and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
-  .fencer {
-    min-height: 110vh;
-  }
-
-  .fencer2 {
-    min-height: 75vh;
-  }
-
-  .main h1 {
-    font-size: 3em;
-  }
-
-  .bgFen {
-    background-size: cover;
-  }
-
-  .advH1 {
-    margin-top: 2em;
-  }
-
-  .btnLanding,
-  .btnLanding2 {
-    padding: 0.8em 2em;
-  }
-}
-
-@media only screen and (min-device-width: 1019px) and (max-device-width: 1201px) and (min-device-height: 495px) and (max-device-height: 625px) {
+@media only screen and (max-device-width: 1201px) and (min-device-height: 495px) and (max-device-height: 625px) {
   .fencer {
     min-height: 141vh;
   }
@@ -559,6 +531,33 @@ nav ul li .last {
 
   .bgFen {
     background-size: cover;
+  }
+}
+
+@media only screen and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
+  .fencer {
+    min-height: 110vh;
+  }
+
+  .fencer2 {
+    min-height: 75vh;
+  }
+
+  .main h1 {
+    font-size: 3em;
+  }
+
+  .bgFen {
+    background-size: cover;
+  }
+
+  .advH1 {
+    margin-top: 2em;
+  }
+
+  .btnLanding,
+  .btnLanding2 {
+    padding: 0.8em 2em;
   }
 }
 
