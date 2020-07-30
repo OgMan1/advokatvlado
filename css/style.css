@@ -291,7 +291,7 @@ nav ul li .last {
 
 .advPink {
   font-weight: bold;
-  margin: 1em 0;
+  margin: 1em 0 2em;
 }
 
 .advPink p {
@@ -422,27 +422,21 @@ nav ul li .last {
   text-align: right;
 }
 
-/* Media  */
+/* ------------------Media------------------  */
 
 @media only screen and (min-width: 1649px) {
   .fencer {
-    min-height: 75vh;
+    min-height: 70vh;
   }
 
   .fencer2 {
-    min-height: 55vh;
+    min-height: 50vh;
   }
 
   .bgFen {
     height: 25vh;
   }
 }
-
-/* @media only screen and (max-width: 1300px) {
-  .bgFen {
-    background-size: contain;
-  }
-} */
 
 @media only screen and (max-width: 1250px) {
   a.nav-link {
@@ -518,60 +512,6 @@ nav ul li .last {
     margin: 2em 0 2em;
   }
 }
-
-/* @media only screen and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
-  .fencer {
-    min-height: 110vh;
-  }
-
-  .fencer2 {
-    min-height: 75vh;
-  }
-
-  .main h1 {
-    font-size: 3em;
-  }
-
-  .bgFen {
-    background-size: cover;
-  }
-
-  .advH1 {
-    margin-top: 2em;
-  }
-
-  .btnLanding,
-  .btnLanding2 {
-    padding: 0.8em 2em;
-  }
-}
-
-@media only screen and (max-device-width: 1201px) and (min-device-height: 495px) and (max-device-height: 625px) {
-  .fencer {
-    min-height: 141vh;
-  }
-
-  .fencer2 {
-    min-height: 111vh;
-  }
-
-  .main h1 {
-    font-size: 3em;
-  }
-
-  .btnLanding,
-  .btnLanding2 {
-    padding: 0.8em 2em;
-  }
-
-  .advH1 {
-    margin-top: 4em;
-  }
-
-  .bgFen {
-    background-size: cover;
-  }
-} */
 
 @media only screen and (max-width: 992px) {
   .workFlexRow .workRowDiv {
