@@ -82,7 +82,7 @@ nav ul li .last {
 
 .fencer,
 .fencer2 {
-  height: 101vh;
+  height: 107vh;
   box-sizing: border-box;
   background-image: url("../images/fen2.jpg");
   background-size: cover;
@@ -91,7 +91,7 @@ nav ul li .last {
 
 .fencer2 {
   background-image: url("../images/fen.jpg");
-  height: 73vh;
+  height: 75vh;
 }
 
 .bgFen {
@@ -427,11 +427,11 @@ nav ul li .last {
 
 @media only screen and (min-width: 1899px) {
   .fencer {
-    height: 65vh;
+    height: 67vh;
   }
 
   .fencer2 {
-    height: 50vh;
+    height: 52vh;
   }
 
   .bgFen {
@@ -439,19 +439,23 @@ nav ul li .last {
   }
 }
 
-@media only screen and (max-width: 1300px) {
+/* @media only screen and (max-width: 1300px) {
   .bgFen {
     background-size: contain;
   }
-}
+} */
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1250px) {
   a.nav-link {
     margin: 0em 0.4em;
   }
 
   .main {
     height: 67vh;
+  }
+
+  .bgFen {
+    background-size: contain;
   }
 
   .landingPage {
@@ -501,9 +505,9 @@ nav ul li .last {
   }
 }
 
-@media only screen and (min-device-width: 1020px) and (max-device-width: 1399px) and (min-device-height: 700px) and (max-device-height: 835px) {
+@media only screen and (min-device-width: 1020px) and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
   .fencer {
-    height: 105vh;
+    height: 110vh;
   }
 
   .fencer2 {
@@ -517,9 +521,18 @@ nav ul li .last {
   .bgFen {
     background-size: cover;
   }
+
+  .advH1 {
+    margin-top: 2em;
+  }
+
+  .btnLanding,
+  .btnLanding2 {
+    padding: 0.8em 2em;
+  }
 }
 
-@media only screen and (min-device-width: 1020px) and (max-device-width: 1025px) and (min-device-height: 495px) and (max-device-height: 605px) {
+@media only screen and (min-device-width: 1019px) and (max-device-width: 1201px) and (min-device-height: 495px) and (max-device-height: 625px) {
   .fencer {
     height: 135vh;
   }
