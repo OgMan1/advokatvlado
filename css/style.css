@@ -423,13 +423,13 @@ nav ul li .last {
 
 /* Media  */
 
-@media only screen and (min-width: 1650px) {
+@media only screen and (min-width: 1649px) {
   .fencer {
-    min-height: 70vh;
+    min-height: 75vh;
   }
 
   .fencer2 {
-    min-height: 50vh;
+    min-height: 55vh;
   }
 
   .bgFen {
@@ -457,11 +457,11 @@ nav ul li .last {
   }
 
   .fencer {
-    min-height: 100vh;
+    min-height: 70vh;
   }
 
   .fencer2 {
-    min-height: 70vh;
+    min-height: 50vh;
   }
 
   .landingPage {
