@@ -255,7 +255,7 @@ nav ul li .last {
 .advokatText h3,
 .advokatText2 h3 {
   position: relative;
-  margin-bottom: 2em;
+  margin: 1em 0 2em;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -291,6 +291,7 @@ nav ul li .last {
 
 .advPink {
   font-weight: bold;
+  margin: 1em 0;
 }
 
 .advPink p {
@@ -481,6 +482,7 @@ nav ul li .last {
   .advPink {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 1em;
+    margin: 0 0 3em 0;
     -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
     -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
     box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
@@ -505,9 +507,14 @@ nav ul li .last {
   .advokatText h3:before {
     width: 100%;
   }
+
+  .testRow h3,
+  .contactText h3 {
+    margin: 1em 0 2.5em 0;
+  }
 }
 
-@media only screen and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
+/* @media only screen and (max-device-width: 1399px) and (min-device-height: 650px) and (max-device-height: 835px) {
   .fencer {
     min-height: 110vh;
   }
@@ -559,7 +566,7 @@ nav ul li .last {
   .bgFen {
     background-size: cover;
   }
-}
+} */
 
 @media only screen and (max-width: 992px) {
   .workFlexRow .workRowDiv {
@@ -616,6 +623,10 @@ nav ul li .last {
   .street,
   .workingHour {
     font-size: 1em;
+  }
+
+  .advPink {
+    margin: 0 0 1em 0;
   }
 }
 
