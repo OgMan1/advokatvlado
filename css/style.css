@@ -709,8 +709,8 @@ nav ul li .last {
 
   .fencer2 {
     display: block;
-    min-height: 51vh;
-    background-position-y: -75px;
+    min-height: 41vh;
+    background-position-y: -80px;
   }
 
   .carousel-item h4 {
@@ -774,7 +774,6 @@ nav ul li .last {
   }
 
   .fencer2 {
-    min-height: 41vh;
     background-position-y: -70px;
   }
 
