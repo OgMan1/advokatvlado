@@ -681,6 +681,26 @@ nav ul li .last {
     font-size: 1.2em;
   }
 
+  .advokatText {
+    background: linear-gradient(
+      98deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(255, 255, 255) 62%,
+      rgba(0, 0, 0, 1) 66%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .advokatText2 {
+    background: linear-gradient(
+      259deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(255, 255, 255) 63%,
+      rgba(0, 0, 0, 1) 67%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
   .advokatText h3,
   .advokatText2 h3 {
     margin: 0 0 2em 0;
