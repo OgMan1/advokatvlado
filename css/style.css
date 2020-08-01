@@ -88,6 +88,7 @@ nav ul li .last {
 }
 
 .fencer2 {
+  background-color: black;
   background-image: url("../images/fen.jpg");
   min-height: 75vh;
 }
@@ -693,10 +694,6 @@ nav ul li .last {
     font-size: 1.1em;
   }
 
-  .fencer {
-    height: 40vh;
-  }
-
   .dropdown-item.active,
   .dropdown-item {
     background-color: rgb(255, 231, 235);
@@ -711,7 +708,23 @@ nav ul li .last {
   }
 
   .fencer2 {
+    position: relative;
+  }
+
+  .fencer2 {
     display: block;
+    min-height: 53vh;
+  }
+
+  .fencer2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: rgba(120, 0, 120, 0.15);
+    height: 100%;
+    z-index: -1;
   }
 
   .carousel-item h4 {
