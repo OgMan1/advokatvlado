@@ -310,7 +310,7 @@ nav ul li .last {
 }
 
 .testRow {
-  padding: 5em 0;
+  padding: 5em 0 4em;
   color: black;
 }
 
@@ -526,9 +526,12 @@ nav ul li .last {
     min-height: 75vh;
   }
 
-  .workFlexRow,
-  .testRow {
+  .workFlexRow {
     padding: 3.15em 0;
+  }
+
+  .testRow {
+    padding: 3.15em 0 2em;
   }
 
   .workRowDiv h5 {
