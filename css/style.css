@@ -408,12 +408,9 @@ nav ul li .last {
 #googleMap {
   height: 330px;
   width: 100%;
-  -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
-  -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
-  box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
-  /* -webkit-box-shadow: 3px 0px 10px -2px gray;
+  -webkit-box-shadow: 3px 0px 10px -2px gray;
   -moz-box-shadow: 3px 0px 10px -2px gray;
-  box-shadow: 3px 0px 10px -2px gray; */
+  box-shadow: 3px 0px 10px -2px gray;
 }
 
 .workingHour {
@@ -558,10 +555,6 @@ nav ul li .last {
     padding-left: 0.5em;
   }
 
-  #googleMap {
-    height: 300px;
-  }
-
   .street,
   .workingHour {
     font-size: 1em;
@@ -579,6 +572,10 @@ nav ul li .last {
   .testRow h3,
   .contactText h3 {
     margin: 1em 0 2.5em 0;
+  }
+
+  #googleMap {
+    height: 300px;
   }
 }
 
