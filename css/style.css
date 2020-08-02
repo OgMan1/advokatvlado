@@ -349,6 +349,7 @@ nav ul li .last {
 
 .dropdown-item.active,
 .dropdown-item {
+  background-color: rgb(255, 255, 255);
   color: black;
   padding: 0.5em 1em;
   margin: 0.5em 0;
