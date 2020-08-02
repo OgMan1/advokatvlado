@@ -408,6 +408,7 @@ nav ul li .last {
 #googleMap {
   height: 330px;
   width: 100%;
+  margin-top: 0.3em;
   -webkit-box-shadow: 3px 0px 10px -2px gray;
   -moz-box-shadow: 3px 0px 10px -2px gray;
   box-shadow: 3px 0px 10px -2px gray;
@@ -771,7 +772,6 @@ nav ul li .last {
   }
 
   #googleMap {
-    margin-top: 0.3em;
     height: 250px;
   }
 
