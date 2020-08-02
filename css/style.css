@@ -393,7 +393,7 @@ nav ul li .last {
 .bottDiv {
   padding-top: 2.8em;
   padding-bottom: 1.5em;
-  border-bottom: 0.2em solid rgb(170, 170, 170);
+  border-bottom: 0.2em solid purple;
 }
 
 .bottAdv,
@@ -407,6 +407,13 @@ nav ul li .last {
 
 #googleMap {
   height: 330px;
+  width: 100%;
+  -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  /* -webkit-box-shadow: 3px 0px 10px -2px gray;
+  -moz-box-shadow: 3px 0px 10px -2px gray;
+  box-shadow: 3px 0px 10px -2px gray; */
 }
 
 .workingHour {
@@ -767,7 +774,7 @@ nav ul li .last {
   }
 
   #googleMap {
-    margin-top: 2em;
+    margin-top: 0.3em;
     height: 250px;
   }
 
