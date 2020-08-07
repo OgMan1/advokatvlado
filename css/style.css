@@ -392,18 +392,18 @@ nav ul li .last {
 }
 
 .bottDiv {
-  padding-top: 2.8em;
-  padding-bottom: 1.5em;
-  border-bottom: 0.2em solid purple;
+  padding-top: 3.05em;
+  padding-bottom: 2em;
+  border-bottom: 0.1em solid purple;
 }
 
 .bottAdv,
 .bottAdv2 {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .bottAdv2 {
-  margin-top: 40px;
+  margin-top: 2em;
 }
 
 #googleMap {
@@ -432,6 +432,10 @@ nav ul li .last {
 .contactRow .fas {
   font-size: 1.15em;
   color: rgb(101, 101, 101);
+}
+
+.mailAdv {
+  margin-bottom: 0;
 }
 
 /* ------------------Media------------------  */
