@@ -429,6 +429,11 @@ nav ul li .last {
   text-align: right;
 }
 
+.contactRow .fas {
+  font-size: 1.15em;
+  color: rgb(101, 101, 101);
+}
+
 /* ------------------Media------------------  */
 
 @media only screen and (min-width: 1649px) {
@@ -673,6 +678,10 @@ nav ul li .last {
     font-size: 1.5em;
   }
 
+  .street {
+    font-size: 0.9em;
+  }
+
   .advH1 {
     margin-top: 0;
   }
@@ -764,7 +773,7 @@ nav ul li .last {
   }
 
   .workingHour {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .contactRow {
@@ -772,7 +781,7 @@ nav ul li .last {
   }
 
   .mailAdv {
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
 
   #googleMap {
@@ -786,6 +795,10 @@ nav ul li .last {
 
   .carousel-item p {
     font-size: 17px;
+  }
+
+  .contactRow .fas {
+    font-size: 1.35em;
   }
 }
 
