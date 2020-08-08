@@ -183,9 +183,9 @@ nav ul li .last {
 }
 
 .carousel-inner {
-  -webkit-box-shadow: 2px -1px 9px -3px gray;
-  -moz-box-shadow: 2px -1px 9px -3px gray;
-  box-shadow: 2px -1px 9px -3px gray;
+  -webkit-box-shadow: 3px 1px 25px -11px gray;
+  -moz-box-shadow: 3px 1px 25px -11px gray;
+  box-shadow: 3px 1px 25px -11px gray;
   padding: 1em;
 }
 
@@ -410,9 +410,6 @@ nav ul li .last {
   height: 330px;
   width: 100%;
   margin-top: 0.3em;
-  -webkit-box-shadow: 3px 0px 10px -2px gray;
-  -moz-box-shadow: 3px 0px 10px -2px gray;
-  box-shadow: 3px 0px 10px -2px gray;
 }
 
 .workingHour {
@@ -487,9 +484,9 @@ nav ul li .last {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 1em;
     margin: 0 0 3em 0;
-    -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
-    -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
-    box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+    -webkit-box-shadow: 0px -1px 30px -17px purple;
+    -moz-box-shadow: 0px -1px 30px -17px purple;
+    box-shadow: 0px -1px 30px -17px purple;
   }
 
   .workRowDiv h5 {
@@ -648,9 +645,10 @@ nav ul li .last {
 
   nav ul li a:hover,
   nav ul li a:active {
-    background-color: purple;
-    color: white;
+    /* /* background-color: purple; */
+    color: black;
     transition: 0.35s ease;
+    border-left: 0.4em solid rgb(255, 77, 255);
   }
 
   .nav-item .nav-link {
@@ -742,6 +740,14 @@ nav ul li .last {
     color: black;
     width: 85%;
     float: right;
+  }
+
+  .dropdown-item.active:hover,
+  .dropdown-item:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-left: 0.3em solid rgb(255, 77, 255);
+    transition: 0.35s ease;
   }
 
   .fencer,
