@@ -484,9 +484,9 @@ nav ul li .last {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 1em;
     margin: 0 0 3em 0;
-    -webkit-box-shadow: 0px -1px 30px -17px purple;
-    -moz-box-shadow: 0px -1px 30px -17px purple;
-    box-shadow: 0px -1px 30px -17px purple;
+    -webkit-box-shadow: 2px 6px 32px -25px purple;
+    -moz-box-shadow: 2px 6px 30px -25px purple;
+    box-shadow: 0px 6px 30px -25px purple;
   }
 
   .workRowDiv h5 {
