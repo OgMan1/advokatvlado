@@ -484,9 +484,15 @@ nav ul li .last {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 1em;
     margin: 0 0 3em 0;
-    -webkit-box-shadow: 0px 4px 32px -25px purple;
-    -moz-box-shadow: 0px 4px 32px -25px purple;
-    box-shadow: 0px 4px 32px -25px purple;
+    -webkit-box-shadow: -3px 4px 32px -25px purple;
+    -moz-box-shadow: -3px 4px 32px -25px purple;
+    box-shadow: -3px 4px 32px -25px purple;
+  }
+
+  .advPink2 {
+    -webkit-box-shadow: 3px 4px 32px -25px purple;
+    -moz-box-shadow: 3px 4px 32px -25px purple;
+    box-shadow: 3px 4px 32px -25px purple;
   }
 
   .workRowDiv h5 {
@@ -774,7 +780,7 @@ nav ul li .last {
   }
 
   .street2 {
-    margin-top: 1.5em;
+    margin-top: 1em;
     padding: 1em;
   }
 
