@@ -447,7 +447,8 @@ nav ul li .last {
   margin-bottom: 0;
 }
 
-.bottDiv a {
+.bottDiv a,
+.botDivAdv2 a {
   text-decoration: none;
 }
 
