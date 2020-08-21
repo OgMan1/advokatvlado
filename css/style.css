@@ -362,7 +362,7 @@ nav ul li .last {
 
 .dropdown-item.active:hover,
 .dropdown-item:hover {
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(219, 219, 219);
   color: black;
   padding: 0.5em 1em;
   margin: 0.5em 0;
@@ -371,6 +371,10 @@ nav ul li .last {
 .dropdown-item:last-child,
 .dropdown-item:hover:last-child {
   margin-bottom: 0;
+}
+
+.testRow .active {
+  color: black;
 }
 
 .testRow h3,
