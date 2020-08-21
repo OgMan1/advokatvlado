@@ -774,7 +774,7 @@ nav ul li .last {
   }
 
   .active {
-    color: rgb(69, 69, 69);
+    color: purple;
   }
 
   .dropdown-item.active:hover,
