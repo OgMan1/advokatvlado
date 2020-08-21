@@ -419,7 +419,7 @@ nav ul li .last {
 }
 
 #googleMap {
-  height: 330px;
+  height: 373px;
   width: 100%;
   margin-top: 0.3em;
 }
@@ -606,7 +606,15 @@ nav ul li .last {
   }
 
   #googleMap {
-    height: 300px;
+    height: 335px;
+  }
+
+  .bottDiv {
+    padding-top: 4.05em;
+  }
+
+  .mailAdv {
+    font-size: 0.9em;
   }
 }
 
