@@ -163,7 +163,7 @@ nav ul li .last {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding: 5em 0;
+  padding: 6em 0;
   position: relative;
 }
 
@@ -379,8 +379,12 @@ nav ul li .last {
 
 .testRow h3,
 .contactText h3 {
-  margin: 0 0 2.5em 0;
+  margin: 0 0 2.15em 0;
   font-weight: bold;
+}
+
+.contactText h3 {
+  margin: 1em 0 2.15em 0;
 }
 
 .contactRow {
@@ -441,6 +445,10 @@ nav ul li .last {
 
 .mailAdv {
   margin-bottom: 0;
+}
+
+.mailAdv a {
+  text-decoration: none;
 }
 
 /* ------------------Media------------------  */
@@ -547,12 +555,9 @@ nav ul li .last {
     min-height: 75vh;
   }
 
-  .workFlexRow {
-    padding: 3.15em 0;
-  }
-
+  .workFlexRow,
   .testRow {
-    padding: 3.15em 0 2em;
+    padding: 4em 0;
   }
 
   .workRowDiv h5 {
@@ -596,7 +601,7 @@ nav ul li .last {
 
   .testRow h3,
   .contactText h3 {
-    margin: 1em 0 2.5em 0;
+    margin: 1em 0 2em 0;
   }
 
   #googleMap {
@@ -706,9 +711,19 @@ nav ul li .last {
     margin-top: 0;
   }
 
+  .workFlexRow,
+  .testRow {
+    padding: 3.15em 0;
+  }
+
   .workFlexRow .workRowDiv {
     width: 86%;
     margin: 1.5em auto;
+  }
+
+  .contactText h3,
+  .testRow h3 {
+    margin: 0.9em 0 1.75em 0;
   }
 
   .advokatText {
