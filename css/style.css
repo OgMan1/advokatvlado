@@ -212,6 +212,7 @@ nav ul li .last {
   list-style: none;
   padding: 1em;
   margin-bottom: 0;
+  border-top: 1px solid white;
 }
 
 .navbar-collapse,
@@ -226,6 +227,10 @@ nav ul li .last {
 .panel-body ul li {
   font-size: 1.2em;
   margin: 1em 0;
+}
+
+.panel-body ul li:first-child {
+  margin-top: 0;
 }
 
 .panel-body ul li:last-child {
