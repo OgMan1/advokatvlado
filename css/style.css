@@ -462,6 +462,10 @@ nav ul li .last {
   text-decoration: none;
 }
 
+.etickiKodeks {
+  margin-top: 0.75em;
+}
+
 /* ------------------Media------------------  */
 
 @media only screen and (min-width: 1649px) {
@@ -628,6 +632,12 @@ nav ul li .last {
   .mailAdv {
     font-size: 0.9em;
   }
+
+  .etickiKodeks {
+    font-size: 0.85em;
+    text-align: left;
+  }
+  
 }
 
 @media only screen and (max-width: 767px) {
