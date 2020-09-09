@@ -227,6 +227,7 @@ nav ul li .last {
 .panel-body ul li {
   font-size: 1.2em;
   margin: 1em 0;
+  font-weight: 700;
 }
 
 .panel-body ul li:first-child {
