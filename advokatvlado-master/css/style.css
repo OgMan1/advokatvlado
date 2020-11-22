@@ -1,0 +1,930 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav .navbar-brand,
+nav .navbar-nav {
+  margin: 0em 2.5em;
+}
+
+.navbar-brand .logoPic {
+  height: 3em;
+}
+
+a.nav-link {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.fixed-top {
+  padding: 0;
+}
+
+nav .navbar-nav,
+.landingText {
+  font-size: 1.25em;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  margin-right: 2em;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: rgb(221, 221, 221);
+}
+
+.active {
+  color: rgb(160, 160, 160);
+}
+
+nav ul li .last {
+  margin-right: 0;
+}
+
+.last img {
+  height: 20px;
+  margin-left: 0.4em;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.landingPage {
+  height: 100vh;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 255, 255) 33%,
+    rgba(0, 0, 0, 1) 37%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.lady {
+  height: 85vh;
+  background-image: url("../images/ladyblack.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fencer,
+.fencer2 {
+  min-height: 109vh;
+  background-image: url("../images/fen2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fencer2 {
+  background-color: black;
+  background-image: url("../images/fen.jpg");
+  min-height: 75vh;
+}
+
+.bgFen {
+  height: 30vh;
+  background-image: url("../images/fen4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgDark {
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.main {
+  height: 75vh;
+  color: white;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 2em;
+}
+
+.main h1 {
+  font-size: 3.25em;
+  letter-spacing: 2px;
+}
+
+.advH1 {
+  margin-top: 3.5em;
+  line-height: 1.5em;
+  text-align: right;
+}
+
+.btnLanding,
+.btnLanding2 {
+  background-color: rgb(255, 77, 255);
+  color: black;
+  border-radius: 0;
+  padding: 0.5em 1.75em;
+  font-size: 1.8em;
+  font-weight: bolder;
+  margin-top: 1em;
+  letter-spacing: 5px;
+}
+
+.btnLanding2 {
+  display: none;
+}
+
+.btnLanding:hover,
+.btnLanding2:hover {
+  background-color: rgb(95, 0, 95);
+  color: white;
+  transition: 0.35s ease;
+}
+
+.aboutWork {
+  background-image: url("../images/fen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-attachment: fixed;
+}
+
+.workFlexRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em 0;
+  position: relative;
+}
+
+.workFlexRow .workRowDiv {
+  background-color: black;
+  width: 90%;
+  margin: 1.5em;
+  text-align: center;
+  color: white;
+  -webkit-box-shadow: 2px 2px 7px 0px rgb(95, 0, 95);
+  -moz-box-shadow: 2px 2px 7px 0px rgb(95, 0, 95);
+  box-shadow: 2px 2px 7px 0px rgb(95, 0, 95);
+}
+
+.workRowDiv h5 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  padding: 0.715em 1em;
+  margin-bottom: 0;
+}
+
+.carousel-inner {
+  -webkit-box-shadow: 3px 1px 25px -11px gray;
+  -moz-box-shadow: 3px 1px 25px -11px gray;
+  box-shadow: 3px 1px 25px -11px gray;
+  padding: 1em;
+}
+
+.btnPanel:hover {
+  text-decoration: none;
+}
+
+.workRowDiv h5:hover {
+  transition: 0.4s ease;
+  color: black;
+  background-color: white;
+}
+
+.panel-body ul {
+  list-style: none;
+  padding: 1em;
+  margin-bottom: 0;
+  border-top: 1px solid white;
+}
+
+.navbar-collapse,
+.panel-collapse {
+  transition: 0.5s ease;
+}
+
+.panel-collapse {
+  background-color: black;
+}
+
+.panel-body ul li {
+  font-size: 1.2em;
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+.panel-body ul li:first-child {
+  margin-top: 0;
+}
+
+.panel-body ul li:last-child {
+  margin-bottom: 0;
+}
+
+.advokatRow {
+  padding: 0;
+}
+
+.advokatText,
+.advokatText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4em;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 255, 255) 62%,
+    rgba(0, 0, 0, 1) 66%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.advokatText2 {
+  text-align: right;
+  background: linear-gradient(
+    249deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 255, 255) 63%,
+    rgba(0, 0, 0, 1) 67%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.advokatText h3,
+.advokatText2 h3 {
+  position: relative;
+  margin: 1em 0 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.advokatText h3:before,
+.advokatText2 h3:before {
+  position: absolute;
+  content: "";
+  height: 0.2em;
+  width: 60%;
+  bottom: -0.1em;
+  z-index: 5;
+  background: purple;
+}
+
+.advokatText2 h3:before {
+  right: 0;
+}
+
+.advokatText p {
+  width: 60%;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+.advokatText2 p {
+  float: right;
+}
+
+.advokatText2 p {
+  text-align: left;
+}
+
+.advPink {
+  font-weight: bold;
+  margin: 1em 0 2em;
+}
+
+.advPink p {
+  margin-bottom: 1.5em;
+}
+
+.advPink p:last-of-type {
+  margin-bottom: 0;
+}
+
+.caret,
+.dropdown-toggle::after {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+.testRow {
+  padding: 5em 0 4em;
+  color: black;
+}
+
+.testRowFlex {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 0;
+}
+
+.carousel-indicators {
+  margin-bottom: 1em;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.carousel-item h2 {
+  margin-bottom: 4em;
+  font-size: 1.7em;
+}
+
+.carousel-item p {
+  margin: 0.8em 0 2.6em 0;
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  padding: 0;
+}
+
+.dropdown-item.active,
+.dropdown-item {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  font-weight: bold;
+}
+
+.dropdown-item.active:hover,
+.dropdown-item:hover {
+  background-color: rgb(219, 219, 219);
+  color: black;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+}
+
+.dropdown-item:last-child,
+.dropdown-item:hover:last-child {
+  margin-bottom: 0;
+}
+
+.testRow .active {
+  color: black;
+}
+
+.testRow h3,
+.contactText h3 {
+  margin: 0 0 2.15em 0;
+  font-weight: bold;
+}
+
+.contactText h3 {
+  margin: 1em 0 2.15em 0;
+}
+
+.contactRow {
+  margin: 1em 0 1em 0;
+  font-weight: 600;
+}
+
+.street,
+.street2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.street2 {
+  padding-left: 1.5em;
+}
+
+.bottDiv {
+  padding-top: 3.05em;
+  padding-bottom: 2em;
+  border-bottom: 0.1em solid purple;
+}
+
+.bottAdv,
+.bottAdv2 {
+  margin-top: 12px;
+}
+
+.bottAdv2 {
+  margin-top: 2em;
+}
+
+#googleMap {
+  height: 373px;
+  width: 100%;
+  margin-top: 0.3em;
+}
+
+.workingHour {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.footer-copyright {
+  padding: 0 1em 1em 1em;
+  margin: 1em 0 0.5em;
+}
+
+.botDivAdv2 {
+  text-align: right;
+}
+
+.contactRow .fas {
+  font-size: 1.15em;
+  color: rgb(101, 101, 101);
+}
+
+.mailAdv {
+  margin-bottom: 0;
+}
+
+.bottDiv a,
+.botDivAdv2 a {
+  text-decoration: none;
+}
+
+.etickiKodeks {
+  margin-top: 0.75em;
+}
+
+/* ------------------Media------------------  */
+
+@media only screen and (min-width: 1649px) {
+  .fencer {
+    min-height: 70vh;
+  }
+
+  .fencer2 {
+    min-height: 50vh;
+  }
+
+  .bgFen,
+  .bgDark {
+    height: 25vh;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  a.nav-link {
+    margin: 0em 0.4em;
+  }
+
+  .lady {
+    height: 80vh;
+  }
+
+  .main {
+    height: 67vh;
+  }
+
+  .bgFen {
+    background-size: contain;
+  }
+
+  .fencer {
+    min-height: 70vh;
+  }
+
+  .fencer2 {
+    min-height: 50vh;
+  }
+
+  .advokatText p {
+    width: 100%;
+  }
+
+  .advPink {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1em;
+    margin: 0 0 3em 0;
+    -webkit-box-shadow: -3px 4px 32px -25px purple;
+    -moz-box-shadow: -3px 4px 32px -25px purple;
+    box-shadow: -3px 4px 32px -25px purple;
+  }
+
+  .advPink2 {
+    -webkit-box-shadow: 3px 4px 32px -25px purple;
+    -moz-box-shadow: 3px 4px 32px -25px purple;
+    box-shadow: 3px 4px 32px -25px purple;
+  }
+
+  .workRowDiv h5 {
+    padding: 0.75em;
+  }
+
+  .bgFen,
+  .bgDark {
+    height: 20vh;
+  }
+
+  .navbar-brand .logoPic {
+    height: 2.25em;
+  }
+
+  .advH1 {
+    margin-top: 5.5em;
+  }
+
+  .advokatText h3:before {
+    width: 100%;
+  }
+
+  .advokatText h3,
+  .advokatText2 h3 {
+    margin: 2em 0 2em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .workFlexRow .workRowDiv {
+    width: 80%;
+    margin: 1em auto;
+  }
+
+  .workFlexRow {
+    flex-direction: column;
+  }
+
+  .fencer {
+    min-height: 97vh;
+  }
+
+  .fencer2 {
+    min-height: 75vh;
+  }
+
+  .workFlexRow,
+  .testRow {
+    padding: 4em 0;
+  }
+
+  .workRowDiv h5 {
+    padding: 0.715em 1.5em;
+  }
+
+  #VladoA {
+    margin-top: 0.75em;
+  }
+
+  .lady {
+    height: 71vh;
+  }
+
+  .bottAdv {
+    margin-top: 10px;
+  }
+
+  .street,
+  .street2 {
+    font-size: 1.2rem;
+  }
+
+  .street2 {
+    padding-left: 0.5em;
+  }
+
+  .street,
+  .workingHour {
+    font-size: 1em;
+  }
+
+  .advPink {
+    margin: 0 0 1em 0;
+  }
+
+  .advokatText h3,
+  .advokatText2 h3 {
+    margin: 1em 0 2em;
+  }
+
+  .testRow h3,
+  .contactText h3 {
+    margin: 1em 0 2em 0;
+  }
+
+  #googleMap {
+    height: 335px;
+  }
+
+  .bottDiv {
+    padding-top: 4.05em;
+  }
+
+  .mailAdv {
+    font-size: 0.9em;
+  }
+
+  .etickiKodeks {
+    font-size: 0.85em;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav .navbar-brand,
+  nav .navbar-nav,
+  .navbar-toggler {
+    margin: 0.1em 1em;
+  }
+
+  .navbar-toggler {
+    padding: 0.2em;
+    font-size: 1.1rem;
+  }
+
+  a.nav-link {
+    margin: 0.4em 0;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.15em 1em;
+  }
+
+  .btnLanding {
+    display: none;
+  }
+
+  .btnLanding2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.75em;
+    margin: 2.25em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+  }
+
+  /* .fa-angle-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 2px 0 0 4px;
+  } */
+
+  nav ul li a {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    -webkit-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+    -moz-box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+    box-shadow: 2px -1px 8px -3px rgb(120, 0, 120);
+  }
+
+  nav ul li a:hover,
+  nav ul li a:active {
+    /* /* background-color: purple; */
+    color: black;
+    transition: 0.35s ease;
+    border-left: 0.4em solid rgb(255, 77, 255);
+  }
+
+  .nav-item .nav-link {
+    margin: 0.75em 0 0 1em;
+    display: flex;
+    align-items: center;
+  }
+
+  a.nav-link.first {
+    margin-top: 1em;
+  }
+
+  a.nav-link.last {
+    margin-bottom: 1em;
+  }
+
+  .lady {
+    height: 53vh;
+  }
+
+  .main {
+    height: 70vh;
+    padding: 1em;
+    margin: 2em 0 0 0;
+  }
+
+  .main h1 {
+    margin-top: 2em;
+    font-size: 2em;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .street {
+    font-size: 0.9em;
+  }
+
+  .advH1 {
+    margin-top: 0;
+  }
+
+  .workFlexRow,
+  .testRow {
+    padding: 3.15em 0;
+  }
+
+  .workFlexRow .workRowDiv {
+    width: 86%;
+    margin: 1.5em auto;
+  }
+
+  .contactText h3,
+  .testRow h3 {
+    margin: 0.9em 0 1.75em 0;
+  }
+
+  .advokatText {
+    padding: 0em 2em 2em 2em;
+  }
+
+  .workRowDiv h5 {
+    font-size: 1.3em;
+  }
+
+  .advokatText {
+    background: linear-gradient(
+      98deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(255, 255, 255) 62%,
+      rgba(0, 0, 0, 1) 66%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .advokatText2 {
+    background: linear-gradient(
+      259deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(255, 255, 255) 63%,
+      rgba(0, 0, 0, 1) 67%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .advokatText h3,
+  .advokatText2 h3 {
+    margin: 0 0 2em 0;
+  }
+
+  .advokatText2 h3 {
+    margin: 2em 0;
+  }
+
+  .advokatText p {
+    font-size: 1.1em;
+  }
+
+  .dropdown-item.active,
+  .dropdown-item {
+    width: 85%;
+    float: right;
+  }
+
+  .active {
+    color: purple;
+  }
+
+  .dropdown-item.active:hover,
+  .dropdown-item:hover {
+    background-color: rgb(207, 207, 207);
+    border-left: 0.3em solid rgb(255, 77, 255);
+    transition: 0.35s ease;
+  }
+
+  .fencer,
+  .bgFen,
+  .bgDark {
+    display: none;
+  }
+
+  .fencer2 {
+    display: block;
+    min-height: 41vh;
+    background-position-y: -80px;
+  }
+
+  .carousel-item h4 {
+    font-size: 1.2em;
+  }
+
+  .bottDiv {
+    padding-top: 0;
+  }
+
+  .bottAdv {
+    margin-top: 5px;
+  }
+
+  .street2 {
+    margin-top: 1em;
+    padding: 1em;
+  }
+
+  .street2 {
+    font-size: 1.1rem;
+  }
+
+  .workingHour {
+    font-size: 0.8em;
+  }
+
+  .contactRow {
+    margin: 1em 0 0 0;
+  }
+
+  .mailAdv {
+    font-size: 0.85em;
+  }
+
+  #googleMap {
+    height: 250px;
+  }
+
+  .footer-copyright {
+    font-size: 0.7em;
+    text-align: center;
+  }
+
+  .carousel-item p {
+    font-size: 17px;
+  }
+
+  .contactRow .fas {
+    font-size: 1.35em;
+  }
+}
+
+@media screen and (min-device-width: 449px) and (max-device-width: 501px) {
+  .fencer2 {
+    min-height: 55vh;
+    background-position-y: -90px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .main h1 {
+    font-size: 1.7em;
+  }
+
+  .fencer2 {
+    background-position-y: -70px;
+  }
+
+  .btnLanding {
+    padding: 0.5em;
+    font-size: 0.95em;
+    margin-top: 3.25em;
+  }
+
+  .workRowDiv h5 {
+    padding: 0.715em;
+    font-size: 1.2em;
+  }
+
+  #doma {
+    margin-top: 1em;
+  }
+
+  .mailAdv {
+    font-size: 0.77em;
+  }
+
+  .street2 {
+    font-size: 0.95rem;
+  }
+
+  .workingHour,
+  .street {
+    font-size: 0.8rem;
+  }
+
+  .advokatText p {
+    font-size: 0.95em;
+  }
+}
