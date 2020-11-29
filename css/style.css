@@ -275,6 +275,7 @@ nav ul li .last {
   margin: 1em 0 2em;
   font-weight: bold;
   letter-spacing: 2px;
+  line-height: 1.35em;
 }
 
 .advokatText h3:before,
@@ -284,7 +285,7 @@ nav ul li .last {
   height: 0.2em;
   width: 60%;
   bottom: -0.1em;
-  z-index: 5;
+  z-index: -5;
   background: purple;
 }
 
@@ -404,14 +405,10 @@ nav ul li .last {
   font-weight: 600;
 }
 
-.street,
 .street2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
   line-height: 1em;
-}
-
-.street2 {
   padding-left: 1.5em;
 }
 
@@ -436,8 +433,9 @@ nav ul li .last {
   margin-top: 0.3em;
 }
 
-.workingHour {
-  font-size: 1.2em;
+.workingHour,
+.street {
+  font-size: 1.05em;
   line-height: 1em;
 }
 
@@ -595,7 +593,6 @@ nav ul li .last {
     margin-top: 10px;
   }
 
-  .street,
   .street2 {
     font-size: 1.2rem;
   }
@@ -606,7 +603,7 @@ nav ul li .last {
 
   .street,
   .workingHour {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .advPink {
@@ -736,10 +733,6 @@ nav ul li .last {
     font-size: 1.5em;
   }
 
-  .street {
-    font-size: 0.9em;
-  }
-
   .advH1 {
     margin-top: 0;
   }
@@ -850,7 +843,8 @@ nav ul li .last {
     font-size: 1.1rem;
   }
 
-  .workingHour {
+  .workingHour,
+  .steet {
     font-size: 0.8em;
   }
 
@@ -921,7 +915,7 @@ nav ul li .last {
 
   .workingHour,
   .street {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .advokatText p {
